@@ -33,16 +33,16 @@ Program Algoritma Genetika buat menyelesaikan masalah Knapsack (optimasi gudang)
 
 - **Seleksi:** Tournament Selection (k=3)
 - **Crossover:** Two-Point Crossover
-- **Mutasi:** Inversion Mutation
+- **Mutasi:** Swap
 
 ## Penjelasan File
 
-- `InisiasiPopulasi.py` - buat populasi awal random (kromosom biner 0/1)
-- `EvaluasiFitness.py` - hitung fitness, kalo bobot > kapasitas fitness = 0
-- `selection.py` - seleksi parent pake Roulette Wheel & Tournament
-- `crossover.py` - crossover (One-Point, Two-Point, Uniform)
-- `mutation.py` - mutasi (Swap, Inversion, Uniform/Bit-Flip)
-- `main.py` - program utama yg jalanin semua proses GA
+- `InisiasiPopulasi.py` - implementasi inisialisasi populasi awal random (kromosom biner 0/1)
+- `EvaluasiFitness.py` - implementasi evaluasi fitness (fitness = 0 jika bobot > kapasitas)
+- `selection.py` - implementasi Tournament Selection
+- `crossover.py` - implementasi Two-Point Crossover
+- `mutation.py` - implementasi Swap Mutation
+- `main.py` - program utama yang menjalankan semua proses GA
 
 ## Cara Jalankan
 
